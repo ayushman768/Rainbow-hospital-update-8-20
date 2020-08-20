@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Lora, serif!important;
+    letter-spacing: 1px
+}
+
+.col-flex {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+section {
+    padding-top: 66px
+}
+
+.text-position {
+    display: inline-flex
+}
+
+.Rainbow-Hospital-contact,
+.Rainbow-hospital-About,
+.Rainbow-hospital-Gallery,
+.Rainbow-hospital-logo,
+.Rainbow-hospital-team,
+.Rainbow-hospital-team-head,
+.Test-tube-baby-services,
+.Test-tube-baby-services-head,
+.appointment-form,
+.contact,
+.rainbow-about-1,
+.text-position,
+.main-width {
+    width: 100%
+}
+
+.main-width {
+    background: rgb(239, 33, 42);
+    padding: 10px;
+    color: rgb(255 255 255);
+    margin: 10px 10px;
+}
+
+
+}
+.Rainbow-H h1 {
+    font-size: 29px!important
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 23px!important;
+    line-height: 1.5!important;
+    font-weight: 900!important;
+    letter-spacing: 3px
+}
+.pad-10 {
+    padding: 10px
+}
+.pad-5 {
+    padding: 5px
+}
+.pad-top {
+    padding-top: 23px
+}
+img {
+    width: 100%
+}
+.text-animate,
+footer,
+header {
+    background: rgb(239, 33, 42);
+    color: #fff
+}
+.color-blue-green {
+    color: rgb(239, 33, 42);
+}
+.color-white {
+    color: #fff
+}
+.color-red {
+    color: rgb(255 104 92)
+}
+.color-black {
+    color: #000
+}
+.contact {
+    padding-top: 52px;
+    font-size: 19px;
+    letter-spacing: 2px
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    box-shadow: 0px 6px 11px -5px black;
+}
+.Rainbow-hospital-footer-nav li {
+    display: block!important;
+}
+.contact ul,
+a,
+li {
+    list-style-type: none;
+    display: inline-block!important;
+    margin: 3px -2px
+}
+.logo {
+    height: 128px;
+    width: 329px
+}
+.item>img {
+    height: 550px!important
+}
+.rainbow-about-1>img {
+    height: 400px
+}
+.logo-2 {
+    width: 66px
+}
+p {
+    line-height: 2;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+.Rainbow-hospital-team>h6,
+h1,
+h2,
+h3,
+h4 {
+    font-size: 20px!important;
+}
+.Rainbow-hospital-nav {
+    text-align: end;
+    width: 1171px;
+    letter-spacing: 3px
+}
+.Rainbow-hospital-nav,
+a {
+    color: #fff!important
+}
+.Test-tube-baby-services h2,
+.Test-tube-baby-services>ul>li {
+    padding: 5px 10px;
+    font-size: 15px
+}
+.Test-tube-baby-services {
+    height: 600px;
+    margin: 0 1px;
+    background: rgb(239, 33, 42);
+    color: #fff
+}
+footer {
+    background: rgb(56 56 56) url(https://ramomcoder.com/v3/assets/frontend/images/07.png);
+}
+.Rainbow-hospital-team {
+    margin: 0 1px;
+    background: rgb(239, 33, 42);
+    color: #fff
+}
+.hover:hover {
+    background: rgb(232 138 46);
+    transition: 0.1s ease-in-out!important;
+    box-shadow: 0px 0px 13px -2px black;
+}
+.Rainbow-hospital-team:hover {
+    background: rgb(232 138 46)
+}
+.Rainbow-hospital-Gallery>img {
+    height: 235px!important;
+    padding: 10px;
+    width: 100%
+}
+.Rainbow-hospital-nav>ul>li {
+    margin: 10px 5px;
+}
+.appointment-form,
+form {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background: rgb(239, 33, 42);
+}
+.Rainbow-hospital-team {
+    margin: 10px 5px
+}
+.btn {
+    background: rgb(232 138 46);
+    padding: 10px;
+    border-radius: 20px
+}
+.Rainbow-hospital-team:hover .btn {
+    background: rgb(239, 33, 42);
+}
+#menu {
+    display: none
+}
+.block {
+    display: none
+}
+.logo-2 {
+    filter: brightness(1.5);
+    padding-top: 24px;
+}
+@media (max-width:1024px) {
+    .col-flex {
+        display: block;
+        flex-wrap: wrap
+    }
+    
+    .carousel-indicators li {
+        display: inline-block!important;
+    }
+    
+    .Test-tube-baby-services {
+        margin: 10px 1px
+    }
+    
+    .appointment-form,
+    form {
+        color: #fff;
+        font-size: 12px;
+        font-weight: 700;
+        background: rgb(239, 33, 42);
+    }
+    
+    .h1 {
+        font-size: 15px!important;
+    }
+    
+    .Rainbow-hospital-Gallery>img {
+        height: 316px!important;
+        padding: 10px;
+        width: 100%
+    }
+    
+    .item>img {
+        height: 186px!important
+    }
+    
+    .logo {
+        height: 128px;
+        width: 294px
+    }
+    
+    .logo-2 {
+        margin-top: 12px;
+        padding-top: 0px;
+    }
+    
+    .Rainbow-hospital-logo {
+        text-align: center
+    }
+    
+    .contact {
+        padding-top: 0;
+        font-size: 19px;
+        letter-spacing: 2px
+    }
+    
+    .Rainbow-hospital-nav {
+        display: none
+    }
+    
+    #menu:checked~header .Rainbow-hospital-nav {
+        display: block
+    }
+    
+    .block {
+        display: block
+    }
+    
+    label i {
+        position: absolute;
+        right: 18px;
+        font-size: 43px!important;
+        top: 25px;
+        display: block
+    }
+    
+    .Rainbow-hospital-nav>ul,
+    li {
+        list-style-type: none;
+        display: block!important;
+        margin: 24px -1px;
+        text-align: initial;
+    }
+}
